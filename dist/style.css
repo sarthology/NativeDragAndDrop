@@ -1,0 +1,35 @@
+h1,
+span {
+  font-family: sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: grey;
+  font-style: italic;
+}
+a:hover {
+  text-decoration: underline;
+}
+span {
+  margin-top: 10px;
+}
+.the-box {
+  width: 400px;
+  height: 250px;
+  border: 2px solid #c6c6c6;
+  border-style: dashed;
+  transition: border-color 1s;
+  display: grid;
+  justify-content: center;
+}
+.the-box img {
+  height: 100%;
+}
+
+.outer-body {
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+}
